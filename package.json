@@ -5,16 +5,22 @@
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
-    "test": "jest",
     "prepare": "npm run build",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest"
   },
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cerber4s/ts-testlib.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "typescript",
+    "library"
+  ],
+  "author": "cerber4s",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cerber4s/ts-testlib/issues"
